@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Plant Identification Quiz</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  </head>
+  
+  <body>
+    
+    <header class="header-section">
+      <h1 class="quiz-title">Plant Identification Quiz</h1>
+    </header>
+    
+    <section class="start" id="start">
+      <p>Are you ready to begin?</p>
+      <input type="button" value="Begin Quiz" class="start-button" id="start-button">
+    </section>
+    
+    <section class="quiz hidden" id="quiz">
+      <div class="question-container">
+        
+      </div>
+      
+      <div class="next">
+        <input type="button" value="Submit" id="button" data-popup-open="popup-open">
+      </div>
+      
+      <div class="popup" data-popup="popup-open" >
+        <div class="popup-inner">
+          <h2 class=text-container></h2>
+          <a id="close-modal" class="popup-close" data-popup-close="popup-feedback"></a>
+        </div>
+      </div>
+    </section>
+    
+    <section class="results hidden" id="results">
+      
+    </section>
+    
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+  
+</html>

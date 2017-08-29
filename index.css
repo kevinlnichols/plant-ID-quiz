@@ -1,0 +1,84 @@
+* {
+  box-sizing: content-box;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.header-section {
+  border: 1px solid gainsboro;
+  border-radius: 8px 8px 8px 8px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.start {
+  border: 1px solid gainsboro;
+  border-radius: 8px 8px 8px 8px;
+  padding: 10px;
+  text-align: center;
+}
+
+.text {
+  border: 1px solid gainsboro;
+  border-radius: 8px 8px 8px 8px;
+  padding: 15px;
+}
+
+.answers {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  float: left;
+  width: 50%;
+  height: 150px;
+  border: 1px solid gainsboro;
+  border-radius: 8px 8px 8px 8px;
+  padding-top: 15px;
+}
+
+.answer {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.image {
+  background-size: cover;
+  border: 3px solid gainsboro;
+  border-radius: 8px 8px 8px 8px;
+  height: 150px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  margin-right: 100px;
+}
+
+.nav, .next, .status-question, .status-score {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.status-score, .status-question {
+  border: 1px solid gainsboro;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.results {
+  border: 3px solid gainsboro;
+  border-radius: 8px 8px 8px 8px;
+}
+
+.percent-correct {
+  border: 3px solid gainsboro;
+  border-radius: 8px 8px 8px 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.percent-correct, .next {
+  display: inline-block;
+}
